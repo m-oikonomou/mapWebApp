@@ -1,9 +1,8 @@
 import React from "react";
 import "App.css";
-import thumb from "./thumb1.jpg";
 
 //Import Components
-import Nav from "./Nav";
+import Nav from "./components/Nav";
 
 const App = () => (
   <div>
