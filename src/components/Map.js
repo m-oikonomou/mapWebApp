@@ -1,6 +1,7 @@
 import React from "react";
-//import Popup from 'react-leaflet-editable-popup';
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+//import Popup from 'react-leaflet-editable-popup';
+//import 'leaflet/dist/leaflet.css';
 
 const Map = () => (
     <div>
@@ -15,7 +16,7 @@ const Map = () => (
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
             <Marker position={[51.505, -0.09]}>
-                <Popup>
+                <Popup removable editable open>
                     A pretty CSS3 popup. <br /> Easily customizable.
         </Popup>
             </Marker>

@@ -6,9 +6,9 @@ import Nav from "./components/Nav";
 import Map from "./components/Map";
 
 const App = () => (
-  <div>
+  <div className="map">
     <Nav />
-    <h1 className="wow">Hello React!!!!!</h1>
+    <h1 className="wow"></h1>
     <Map />
   </div>
 );
